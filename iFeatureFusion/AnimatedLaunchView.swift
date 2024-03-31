@@ -9,55 +9,34 @@ import SwiftUI
 
 struct AnimatedLaunchView: View {
     
-    var rows = Array(repeating: GridItem(.flexible()), count: 6)
+    let rows: Int = {
+#if os(macOS)
+        return 16
+#elseif os(iOS)
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            return 3 // Adjust the number of rows for iPad
+        } else {
+            return 10 // Default number of rows for other iOS devices
+        }
+#else
+        return 3
+#endif
+    }()
     
     
     var body: some View {
         ScrollView {
-            LazyVStack(spacing: 100) {
-                LazyHStack(spacing: 11) {
-                    ForEach(0..<62) { columnIndex in
-                        RectangleView(index: columnIndex)
-                    }
-                }
-                
-                LazyHStack(spacing: 15) {
-                    ForEach(0..<50) { columnIndex in
-                        RectangleView(index: columnIndex)
-                    }
-                }
-                
-                LazyHStack(spacing: 13) {
-                    ForEach(0..<62) { columnIndex in
-                        RectangleView(index: columnIndex)
-                    }
-                }
-                
-                LazyHStack(spacing: 17) {
-                    ForEach(0..<50) { columnIndex in
-                        RectangleView(index: columnIndex)
-                    }
-                }
-                
-                LazyHStack(spacing: 9) {
-                    ForEach(0..<62) { columnIndex in
-                        RectangleView(index: columnIndex)
-                    }
-                }
-                
-                LazyHStack(spacing: 9) {
-                    ForEach(0..<62) { columnIndex in
-                        RectangleView(index: columnIndex)
-                    }
-                }
-                
-                LazyHStack(spacing: 9) {
-                    ForEach(0..<62) { columnIndex in
-                        RectangleView(index: columnIndex)
+            VStack(spacing: 100) {
+                ForEach(0..<self.rows, id: \.self){_ in
+                    HStack(spacing: 20) {
+                        ForEach(0..<62) { columnIndex in
+                            RectangleView(index: columnIndex)
+                        }
                     }
                 }
             }
         }
+        .ignoresSafeArea()
     }
     
     struct RectangleView: View {
@@ -71,9 +50,9 @@ struct AnimatedLaunchView: View {
                     .fill(Color.random.gradient)
                     .frame(width: 70, height: 100)
                     .offset(x: calculateOffset(geometry: geometry))
-//                    .onAppear {
-//                        animateLooping()
-//                    }
+                    .onAppear {
+                        animateLooping()
+                    }
             }
             
         }
@@ -85,7 +64,7 @@ struct AnimatedLaunchView: View {
         }
         
         private func animateLooping() {
-            withAnimation(Animation.linear(duration: 10).repeatForever(autoreverses: false)) {
+            withAnimation(Animation.linear(duration: 10).repeatForever(autoreverses: true)) {
                 scrollOffset += 600
             }
         }
