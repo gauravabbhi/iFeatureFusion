@@ -12,9 +12,18 @@
 		9EF9718F2BB8BD4B00F674B5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9718E2BB8BD4B00F674B5 /* Item.swift */; };
 		9EF971912BB8BD4D00F674B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF971902BB8BD4D00F674B5 /* Assets.xcassets */; };
 		9EF971952BB8BD4D00F674B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF971942BB8BD4D00F674B5 /* Preview Assets.xcassets */; };
+		9EF9719D2BB8BD9800F674B5 /* GenerateColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF9719C2BB8BD9800F674B5 /* GenerateColors.swift */; };
+		9EF971B82BB8C47000F674B5 /* AnimatedLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF971B72BB8C47000F674B5 /* AnimatedLaunchView.swift */; };
+		9EF971C22BB8D2E800F674B5 /* iFeatureFusionLiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF971C12BB8D2E800F674B5 /* iFeatureFusionLiteApp.swift */; };
+		9EF971C42BB8D2E800F674B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF971C32BB8D2E800F674B5 /* ContentView.swift */; };
+		9EF971C62BB8D2E800F674B5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF971C52BB8D2E800F674B5 /* Item.swift */; };
+		9EF971C82BB8D2E900F674B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF971C72BB8D2E900F674B5 /* Assets.xcassets */; };
+		9EF971CB2BB8D2E900F674B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF971CA2BB8D2E900F674B5 /* Preview Assets.xcassets */; };
+		9EF971D02BB8D33B00F674B5 /* AnimatedLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF971CF2BB8D33B00F674B5 /* AnimatedLaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EB047412BB8ED64008E58B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9EF971872BB8BD4B00F674B5 /* iFeatureFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFeatureFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF9718A2BB8BD4B00F674B5 /* iFeatureFusionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFeatureFusionApp.swift; sourceTree = "<group>"; };
 		9EF9718C2BB8BD4B00F674B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,10 +31,26 @@
 		9EF971902BB8BD4D00F674B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EF971922BB8BD4D00F674B5 /* iFeatureFusion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iFeatureFusion.entitlements; sourceTree = "<group>"; };
 		9EF971942BB8BD4D00F674B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EF9719C2BB8BD9800F674B5 /* GenerateColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateColors.swift; sourceTree = "<group>"; };
+		9EF971B72BB8C47000F674B5 /* AnimatedLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLaunchView.swift; sourceTree = "<group>"; };
+		9EF971BF2BB8D2E800F674B5 /* iFeatureFusionLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFeatureFusionLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF971C12BB8D2E800F674B5 /* iFeatureFusionLiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFeatureFusionLiteApp.swift; sourceTree = "<group>"; };
+		9EF971C32BB8D2E800F674B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EF971C52BB8D2E800F674B5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9EF971C72BB8D2E900F674B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EF971CA2BB8D2E900F674B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EF971CF2BB8D33B00F674B5 /* AnimatedLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9EF971842BB8BD4B00F674B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF971BC2BB8D2E800F674B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +63,9 @@
 		9EF9717E2BB8BD4B00F674B5 = {
 			isa = PBXGroup;
 			children = (
+				9EF9719B2BB8BD5600F674B5 /* MockData */,
 				9EF971892BB8BD4B00F674B5 /* iFeatureFusion */,
+				9EF971C02BB8D2E800F674B5 /* iFeatureFusionLite */,
 				9EF971882BB8BD4B00F674B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				9EF971872BB8BD4B00F674B5 /* iFeatureFusion.app */,
+				9EF971BF2BB8D2E800F674B5 /* iFeatureFusionLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +88,7 @@
 				9EF971902BB8BD4D00F674B5 /* Assets.xcassets */,
 				9EF971922BB8BD4D00F674B5 /* iFeatureFusion.entitlements */,
 				9EF971932BB8BD4D00F674B5 /* Preview Content */,
+				9EF971B72BB8C47000F674B5 /* AnimatedLaunchView.swift */,
 			);
 			path = iFeatureFusion;
 			sourceTree = "<group>";
@@ -68,6 +97,36 @@
 			isa = PBXGroup;
 			children = (
 				9EF971942BB8BD4D00F674B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EF9719B2BB8BD5600F674B5 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				9EF9719C2BB8BD9800F674B5 /* GenerateColors.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		9EF971C02BB8D2E800F674B5 /* iFeatureFusionLite */ = {
+			isa = PBXGroup;
+			children = (
+				9EB047412BB8ED64008E58B7 /* Info.plist */,
+				9EF971C12BB8D2E800F674B5 /* iFeatureFusionLiteApp.swift */,
+				9EF971C32BB8D2E800F674B5 /* ContentView.swift */,
+				9EF971C52BB8D2E800F674B5 /* Item.swift */,
+				9EF971C72BB8D2E900F674B5 /* Assets.xcassets */,
+				9EF971C92BB8D2E900F674B5 /* Preview Content */,
+				9EF971CF2BB8D33B00F674B5 /* AnimatedLaunchView.swift */,
+			);
+			path = iFeatureFusionLite;
+			sourceTree = "<group>";
+		};
+		9EF971C92BB8D2E900F674B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EF971CA2BB8D2E900F674B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -92,6 +151,23 @@
 			productReference = 9EF971872BB8BD4B00F674B5 /* iFeatureFusion.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9EF971BE2BB8D2E800F674B5 /* iFeatureFusionLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF971CC2BB8D2E900F674B5 /* Build configuration list for PBXNativeTarget "iFeatureFusionLite" */;
+			buildPhases = (
+				9EF971BB2BB8D2E800F674B5 /* Sources */,
+				9EF971BC2BB8D2E800F674B5 /* Frameworks */,
+				9EF971BD2BB8D2E800F674B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFeatureFusionLite;
+			productName = iFeatureFusionLite;
+			productReference = 9EF971BF2BB8D2E800F674B5 /* iFeatureFusionLite.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,6 +179,9 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					9EF971862BB8BD4B00F674B5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9EF971BE2BB8D2E800F674B5 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -121,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				9EF971862BB8BD4B00F674B5 /* iFeatureFusion */,
+				9EF971BE2BB8D2E800F674B5 /* iFeatureFusionLite */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +215,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EF971BD2BB8D2E800F674B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF971CB2BB8D2E900F674B5 /* Preview Assets.xcassets in Resources */,
+				9EF971C82BB8D2E900F674B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,9 +231,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EF9719D2BB8BD9800F674B5 /* GenerateColors.swift in Sources */,
 				9EF9718D2BB8BD4B00F674B5 /* ContentView.swift in Sources */,
 				9EF9718F2BB8BD4B00F674B5 /* Item.swift in Sources */,
+				9EF971B82BB8C47000F674B5 /* AnimatedLaunchView.swift in Sources */,
 				9EF9718B2BB8BD4B00F674B5 /* iFeatureFusionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF971BB2BB8D2E800F674B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EF971D02BB8D33B00F674B5 /* AnimatedLaunchView.swift in Sources */,
+				9EF971C42BB8D2E800F674B5 /* ContentView.swift in Sources */,
+				9EF971C62BB8D2E800F674B5 /* Item.swift in Sources */,
+				9EF971C22BB8D2E800F674B5 /* iFeatureFusionLiteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +305,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -258,7 +362,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -341,6 +447,71 @@
 			};
 			name = Release;
 		};
+		9EF971CD2BB8D2E900F674B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFeatureFusionLite/Preview Content\"";
+				DEVELOPMENT_TEAM = RFU965M7N5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iFeatureFusionLite/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AnimatedLaunchView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauravabbhi.iFeatureFusionLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EF971CE2BB8D2E900F674B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFeatureFusionLite/Preview Content\"";
+				DEVELOPMENT_TEAM = RFU965M7N5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iFeatureFusionLite/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AnimatedLaunchView;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gauravabbhi.iFeatureFusionLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -358,6 +529,15 @@
 			buildConfigurations = (
 				9EF971992BB8BD4D00F674B5 /* Debug */,
 				9EF9719A2BB8BD4D00F674B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EF971CC2BB8D2E900F674B5 /* Build configuration list for PBXNativeTarget "iFeatureFusionLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EF971CD2BB8D2E900F674B5 /* Debug */,
+				9EF971CE2BB8D2E900F674B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

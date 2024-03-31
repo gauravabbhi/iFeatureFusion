@@ -25,7 +25,7 @@ struct iFeatureFusionApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimatedLaunchView()
         }
         .modelContainer(sharedModelContainer)
     }
