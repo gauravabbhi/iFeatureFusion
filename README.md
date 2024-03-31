@@ -1,6 +1,6 @@
 # iFeatureFusion
 
-Welcome to iFeatureFusion, your gateway to the forefront of iOS development. iFeatureFusion is an ongoing project aimed at showcasing the latest features and APIs provided by Apple for iOS development. This README provides an overview of the app, its features, and how to get started with it.
+Welcome to iFeatureFusion, your gateway to the forefront of iOS development. iFeatureFusion is an ongoing project aimed at showcasing Apple's latest features and APIs for iOS development. This README provides an overview of the app, its features, and how to get started with it.
 
 ## Features
 
@@ -14,7 +14,7 @@ Welcome to iFeatureFusion, your gateway to the forefront of iOS development. iFe
 
 ## Installation
 
-To use iFeatureFusion, simply clone this repository to your local machine and open the project in Xcode. You can then run the app on your iOS simulator or a physical iOS device.
+To use iFeatureFusion, clone this repository to your local machine and open the project in Xcode. You can then run the app on your iOS simulator or a physical iOS device.
 
 ```bash
-git clone https://github.com/yourusername/iFeatureFusion.git
+git clone https://github.com/gauravabbhi/iFeatureFusion.git
